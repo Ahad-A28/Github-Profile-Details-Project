@@ -5,7 +5,7 @@ const submitbtn = document.querySelector("#submitbtn");
 
  
  submitbtn.addEventListener("click", function(e) {
-e.preventDefault();
+    e.preventDefault(); 
 const username = input.value;
 if (!username) {
     alert("Please enter a username");
